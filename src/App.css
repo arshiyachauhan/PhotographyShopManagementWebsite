@@ -1,0 +1,116 @@
+/* Background video styling */
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+}
+
+/* Logo styling */
+.navbar-brand {
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+}
+
+/* Navigation links in a translucent box */
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  background-color: rgba(0, 0, 0, 0.5); /* Translucent background */
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+/* Link styling */
+.nav-links .nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Centered main content container */
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh; /* Adjust as needed */
+}
+
+/* Centered content inside route paths */
+.content-container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%;
+}
+
+
+/* Fixed footer at the bottom */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 0;
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+  color: white;
+  text-align: center;
+  z-index: 10; /* Ensure it stays above other elements */
+}
+
+/* Centered main content container */
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+/* Home component styling */
+.home-container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.home-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.home-container p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.categories-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.categories-list li {
+  margin: 0.5rem 0;
+}
