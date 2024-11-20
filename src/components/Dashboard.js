@@ -23,8 +23,8 @@ const Dashboard = () => {
 
   return (
     <div className="container">
-      <h2 className="text-center mb-4">Your Dashboard</h2>
-      <h3 className="mb-3">Booking History</h3>
+      <h2 className="text-center mb-4" style={{ fontWeight: 'bold' }}>Booking Dashboard</h2>
+      <h5 className="mb-3">Booking History</h5>
       {bookings.length > 0 ? (
         <ul className="list-group">
           {bookings.map((booking, index) => (
@@ -37,7 +37,7 @@ const Dashboard = () => {
           ))}
         </ul>
       ) : (
-        <p className="text-center">You have no past bookings.</p>
+        <p className="text-center">No bookings yet.</p>
       )}
     </div>
   );

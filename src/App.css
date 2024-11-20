@@ -82,7 +82,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 80vh;
+  min-height: 95vh;
 }
 
 /* Home component styling */
@@ -114,3 +114,4 @@ footer {
 .categories-list li {
   margin: 0.5rem 0;
 }
+

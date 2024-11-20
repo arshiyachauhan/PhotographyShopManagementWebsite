@@ -1,32 +1,33 @@
 .home-container h2 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-  }
-  .home-container {
-    background-color: transparent;
-    padding: 0; 
-    margin: 0; 
-  }
-  
-  .home-container h3 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: red;
-  }
-  
-  .categories-list {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .categories-list li {
-    margin-right: 5px;
-  }
-  
-  .categories-list li:after {
-    content: '|';
-    margin-left: 5px;
-  }
- 
-  
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+}
+.home-container {
+  padding: 0; 
+  margin: 0; 
+}
+
+.home-container h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: red;
+}
+
+.categories-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+  text-align: center; 
+}
+
+.categories-list li {
+  margin-right: 10px;
+}
+
+.categories-list li:after {
+  content: '|';
+  margin-left: 10px;
+}
+
